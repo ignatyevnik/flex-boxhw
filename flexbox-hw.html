@@ -23,46 +23,48 @@
         <a class="verticalLink" href="#">VERTICAL_4</a>
     </aside>
     <main class="col-11">
-        <div class="flex-row"> <!--line 1-->
-            <div class="col-8 offset-2 row-1">
-                <img src="./img/1.jpg" alt="1">
-            </div>
+        <div class="flex-row container"> <!--line 1-->
+            <!--            <div class="col-8 row-1 ">-->
+            <img class="container-img col-8 row-1" src="./img/1.jpg" alt="1">
+            <!--            </div>-->
         </div>
         <div class="flex-row row-2">
-            <div class="col-3">
-                <p class="pad txt-center">TITLE_2</p> <!--line 2-->
-                <img src="./img/2.jpg" alt="2">
+            <div class="col-3 pad border">
+                <p class="txt-center">TITLE_2</p> <!--line 2-->
+                <img class="img-row" src="./img/2.jpg" alt="2">
             </div>
-            <div class="col-3">
-                <p class="pad txt-center">TITLE_3</p>
-                <img src="./img/3.jpg" alt="3">
+            <div class="col-3 pad border">
+                <p class="txt-center">TITLE_3</p>
+                <img class="img-row" src="./img/3.jpg" alt="3">
             </div>
-            <div class="col-3">
-                <p class="pad txt-center">TITLE_4</p>
-                <img src="./img/4.jpg" alt="4">
+            <div class="col-3 pad border">
+                <p class="txt-center">TITLE_4</p>
+                <img class="img-row" src="./img/4.jpg" alt="4">
             </div>
-            <div class="col-3">
-                <p class="pad txt-center">TITLE_5</p>
-                <img src="./img/5.jpg" alt="5">
+            <div class="col-3 pad border">
+                <p class="txt-center">TITLE_5</p>
+                <img class="img-row" src="./img/5.jpg" alt="5">
             </div>
         </div>
         <div class="flex-row row-3"> <!--line 3-->
-            <div class="col-3 img-pad">
-                <img src="./img/6.jpg" alt="6">
+            <div class="col-6 border row-3-txt-img">
+                <div class="col-6">
+                    <img class="img-row" src="./img/6.jpg" alt="6">
+                </div>
+                <div class="col-6">
+                    <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
+                        pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
+                        Culpa nam quia quisquam sequi vitae?</p>
+                </div>
             </div>
-            <div class="col-3">
+            <div class="col-3 row-txt">
                 <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                     pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
                     Culpa nam quia quisquam sequi vitae?</p>
             </div>
-            <div class="col-3">
-                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
-                    pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
-                    Culpa nam quia quisquam sequi vitae?</p>
-            </div>
-            <div class="col-3">
+            <div class="col-3 row-txt">
                 <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                     pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
@@ -70,47 +72,51 @@
             </div>
         </div>
         <div class="flex-row row-4"> <!--line 4-->
-            <div class="col-3">
+            <div class="col-3 row-txt">
                 <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                     pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
                     Culpa nam quia quisquam sequi vitae?</p>
             </div>
-            <div class="col-3">
+            <div class="col-3 row-txt">
                 <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                     pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
                     Culpa nam quia quisquam sequi vitae?</p>
             </div>
-            <div class="col-3">
-                <img src="./img/7.jpg" alt="7">
-            </div>
-            <div class="col-3">
-                <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
-                    pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
-                    Culpa nam quia quisquam sequi vitae?</p>
+            <div class="flex-row border row-3-txt-img">
+                <div class="col-6">
+                    <img class="img-row" src="./img/9.jpg" alt="7">
+                </div>
+                <div class="col-6">
+                    <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
+                        pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
+                        Culpa nam quia quisquam sequi vitae?</p>
+                </div>
             </div>
         </div>
+
         <div class="flex-row row-5"> <!--line 5-->
-            <div class="flex-row col-6">
-                <div class="col-6 row-5-left">
-                    <div class="row-5-left">
+            <div class="flex-row col-6 border background-row-5-lft">
+                <div class="col-6">
+                    <div>
                         <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                             Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                             pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
                             Culpa nam quia quisquam sequi vitae?</p>
                     </div>
-                    <div class="row-5-left">
-                        <p class="pad"><img src="./img/8.jpg" alt="8"></p>
+                    <div>
+                        <img class="row-5-img" src="./img/8.jpg" alt="8">
                     </div>
                 </div>
-                <div>
-                    <img class="img-1" src="./img/9.jpg" alt="9">
+                <div class="col-6 container-row-5">
+                    <img class="row-5-img-2" src="./img/7.jpg" alt="9">
                 </div>
             </div>
-            <div class="col-6 row-5-right block-height">
-                <div>
+
+            <div class="col-6 background-row-5-right row-5-txt">
+                <div class="border row-5-txt-height">
                     <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                         pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
@@ -119,7 +125,7 @@
                         pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
                         Culpa nam quia quisquam sequi vitae?</p>
                 </div>
-                <div>
+                <div class="border row-5-txt-height">
                     <p class="pad">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                         Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                         pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
@@ -127,6 +133,7 @@
                         Debitis dolor doloribus error illo ipsa ipsam iusto labore molestias nostrum optio,
                         pariatur quaerat qui reiciendis suscipit tempora temporibus vitae, voluptatem.
                         Culpa nam quia quisquam sequi vitae?</p>
+                    <!--Получилось только с помощью высоты блоков для текста в 50% от родительского div выровнять текст-->
                 </div>
             </div>
         </div>
